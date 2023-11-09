@@ -1,0 +1,196 @@
+.statusPending {
+    width: 100px;
+    height: 38px;
+    background: rgba(220, 215, 244, 0.5);
+    border-radius: 20px;
+    color: #777485;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+
+
+
+}
+
+.modalWrapper {
+    .orderDetails {
+        font-weight: 500;
+        font-size: 20px;
+        color: #16063C;
+    }
+
+    .boldHeadingOrder {
+        font-weight: 600;
+        font-size: 16px;
+        color: #16063C;
+        margin-bottom: 32px;
+    }
+
+    .imgFlex {
+        display: flex;
+
+        .boldHeadingOrder1 {
+            font-weight: 600;
+            font-size: 16px;
+            color: #16063C;
+            margin-bottom: 0px;
+        }
+
+        .img {
+            width: 250px;
+            height: 200px;
+            background: #E0E7EC;
+            border: 1px solid #F6F7F9;
+            border-radius: 6px;
+            margin-right: 32px;
+        }
+    }
+
+    .orderDetailWrapper {
+        .iconFlex {
+            display: flex;
+            align-items: center;
+
+            .icon {}
+
+            .boldHeadingOrder {}
+        }
+
+        .boldHeadingOrder {
+            font-weight: 600;
+            font-size: 16px;
+            color: #16063C;
+            margin-bottom: 0px;
+        }
+
+        .blurTxtOrder {
+            font-weight: 400;
+            font-size: 14px;
+            color: #16063C;
+            margin-bottom: 0px;
+        }
+    }
+
+    .btnFlex {
+        display: flex;
+        margin-top: 36px;
+
+        .fulfilOrder {
+            font-weight: 700;
+            font-size: 13px;
+            width: 249px;
+            height: 49px;
+            background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+            border-radius: 40px;
+            color: #FFFFFF;
+            text-transform: capitalize;
+        }
+
+        .requestCancellation {
+            font-weight: 500;
+            font-size: 15px;
+            color: #341E9D;
+        }
+    }
+}
+
+.requestingCancellationWrapperPending {
+    .crossIconFlex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .boldTxt {
+            font-weight: 600;
+            font-size: 24px;
+            color: #16063C;
+
+
+        }
+
+        .iconStyle {
+            color: #FFFFFF;
+            height: 16px;
+            width: 16px;
+        }
+    }
+
+    .cancellationTxtField {
+        width: 400px;
+        height: 56px;
+        background: #F9F9FC;
+        border-radius: 8px;
+        margin-bottom: 32px;
+
+
+
+    }
+
+    .other {
+        border-radius: 8px;
+        color: #16063C;
+    }
+
+    .btnWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .send {
+            width: 400px;
+            height: 49px;
+            background: linear-gradient(90deg, #341E9E 0%, #8672E4 100%);
+            border-radius: 40px;
+            color: #FFFFFF;
+        }
+
+        .cancel {
+            font-weight: 500;
+            font-size: 16px;
+            margin: 0px;
+            color: #341E9D;
+        }
+    }
+
+}
+
+.requestCancellationWrapper {
+    .iconFlex {
+        display: flex;
+        justify-content: flex-end;
+
+        .styleCrossIcon {
+            background: #777485;
+
+
+        }
+    }
+
+    .flexParaBtn {
+        .headingRequestCancellation {
+            font-size: 20px;
+            line-height: 33px;
+            color: #16063C;
+
+
+        }
+
+        .txtRequestCancellation {
+            font-weight: 400;
+            font-size: 15px;
+            color: #16063C;
+
+        }
+
+        .gotitBtn {
+            width: 380px;
+            height: 59px;
+            background: linear-gradient(90deg, #341E9E 0%, #8672E4 100%);
+            border-radius: 40px;
+            color: #FFFFFF;
+            text-transform: capitalize;
+
+        }
+    }
+}

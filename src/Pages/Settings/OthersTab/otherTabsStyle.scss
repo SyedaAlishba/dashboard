@@ -1,0 +1,44 @@
+.otherTabsWrapper{
+    display: flex;
+    gap: 30px;
+    .leftSideWrapper{
+        .forLanguage {
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 33px;
+            color: #16063c;
+          }
+          .forLanguageSelected {
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: #16063c;
+          }
+
+
+          .paraList {
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 33px;
+            color: #777485;
+            // margin-left: 120px;
+            margin-top: 40px;
+          }
+          .paraListSelected {
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: #000;
+            // margin-left: 120px;
+            margin-top: 40px;
+          }
+    }
+
+    .rightSideWrapper{
+
+    }
+}

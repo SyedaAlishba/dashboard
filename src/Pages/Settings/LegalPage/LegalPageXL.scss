@@ -1,0 +1,146 @@
+/* Using SCSS variables to store breakpoints */
+$breakpoint-sm: 600px;
+$breakpoint-md: 900px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 4000px;
+@media (width >= $breakpoint-lg) {
+
+.mainWrapperLegalPage {
+    .forTitle {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 55px;
+      color: #16063c;
+      margin: 0px;
+    }
+    .forBlurTxt {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 33px;
+      color: #777485;
+      margin: 0px;
+    }
+    .mainSectionalArea {
+      display: flex;
+      flex-direction: row;
+      .forRightSec {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+  
+        .forArrow {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          .arrowRgt {
+            margin-right: 40px;
+            width: 7.64px;
+            height: 14px;
+          }
+          .aboutUs {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            color: #16063c;
+            cursor:pointer
+          }
+          .aboutUsBlur {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            color: #777485;
+            cursor:pointer
+          }
+        }
+  
+        .privacyStg {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          .arrowRgt1 {
+            margin-right: 40px;
+            width: 7.64px;
+            height: 14px;
+          }
+          .privacySetting {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #777485;
+            cursor:pointer
+
+          }
+          .privacySettingBold {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #16063c;
+            cursor:pointer
+
+  
+          }
+        }
+        .termCon {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          .arrowRgt2 {
+            margin-right: 40px;
+            width: 7.64px;
+            height: 14px;
+          }
+          .termsCondition {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #777485;
+            cursor:pointer
+
+          }
+          .termsConditionBold {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #16063c;
+            cursor:pointer
+
+  
+          }
+        }
+      }
+  
+      .forLeftSection {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        margin-top: 40px;
+  
+        .leftAboutUs {
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 44px;
+          color: hsl(258, 82%, 13%);
+
+        }
+        .paraMainDiv {
+          width: 800px;
+          height: auto;
+          background: #f9f9fc;
+          border: 1px solid #f6f7f9;
+          border-radius: 2px;
+          // padding: 60px;
+          padding-top: 20px;
+          padding-left: 40px;
+          padding-right: 40px;
+  
+          .forPara {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #16063c;
+          }
+        }
+      }
+    }
+  }
+}

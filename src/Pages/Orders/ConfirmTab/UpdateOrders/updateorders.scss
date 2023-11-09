@@ -1,0 +1,93 @@
+.updatesOrdersWrappers{
+    .updateOdersIconFlex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .updateIcon{
+height: 35px;
+width: 35px;
+color: #130F26;
+        }
+        .UpdateTxt{
+            font-weight: 500;
+            font-size: 24px;
+            color: #16063C;
+
+        }
+    }
+    .textfieldWrapper{
+        display: flex;
+        flex-direction: column;
+
+    
+    .headingUpdateTxt{
+        font-weight: 400;
+font-size: 16px;
+color: #16063C;
+
+
+    }
+    .UpdatsOrdersDeliveryTxtField{
+        width: 600px;
+        height: auto;
+        font-weight: 400;
+font-size: 14px;
+background: #F9F9FC;
+color: #16063C;
+border-radius: 8px;
+
+
+    }
+    .UpdatsOrdersContactDetailsTxtField{
+        width: 600px;
+        height: auto;
+
+        font-weight: 400;
+font-size: 14px;
+background: #F9F9FC;
+color: #16063C;
+border-radius: 8px;
+
+    }
+    .UpdatsOrdersTxtField{
+        width: 600px;
+        font-weight: 400px;
+font-size: 14px;
+        background: #F9F9FC;
+        color: #16063C;
+        border-radius: 8px;
+
+
+    }
+}
+.updateBtnWrapper{
+    display: flex;
+    margin-top: 32px;
+
+    .comfirmUpdateBtn{
+        width: 210px;
+height: 55px;
+
+
+        background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+border-radius: 40px;
+color: #FFFFFF;
+text-transform: capitalize;
+margin-left: 60px;
+
+    }
+    .updateCancelBtn{
+        width: 210px;
+        height: 55px;
+        border: 1px solid #341E9D;
+text-transform: capitalize;
+
+border-radius: 40px;
+color: #341E9D;
+margin-left: 60px;
+
+
+    }
+
+}
+}

@@ -1,0 +1,198 @@
+.myStoreWrapper {
+    margin: 0px 40px;
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+
+
+    .myStore {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .store {
+            font-weight: 500;
+            font-size: 28px;
+            font-feature-settings: 'ss01' on, 'ss03' on;
+        }
+
+        .totall {
+            width: 46px;
+            height: 24px;
+            background: #341E9D;
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            padding-top: 3px;
+            margin-left: 12px;
+        }
+    }
+
+    .filterFlex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+
+        .filter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            width: 120px;
+            height: 55px;
+            border: 1px solid #341E9D;
+            border-radius: 40px;
+
+            .filterTxt {
+                font-weight: 700;
+                font-size: 16px;
+                color: #341E9D;
+            }
+
+        }
+
+        .newList {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 190px;
+            height: 59px;
+            background: #341E9D;
+            border-radius: 40px;
+            justify-content: center;
+            gap: 10px;
+
+            .icon {
+                width: 24px;
+                height: 24px;
+
+            }
+
+            .addNew {
+                font-weight: 600;
+                font-size: 16px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.modalWrapper {
+
+    .earthenware {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+
+
+        color: #16063C;
+
+    }
+
+    .imgearthenware {
+        width: 513px;
+        height: 156px;
+        border: 1px solid #F6F7F9;
+        border-radius: 6px;
+
+    }
+
+    .craftDiscriptionWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .boldHeading {
+            font-weight: 600;
+            font-size: 16px;
+            color: #16063C;
+            margin-bottom: 0px;
+
+        }
+
+        .blurTxt {
+            font-weight: 400;
+            font-size: 14px;
+            color: #16063C;
+            margin-bottom: 0px;
+
+
+        }
+
+    }
+
+    .btnEditCraftWrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 12px;
+
+
+        .btnEditCraft {
+            height: 38px;
+            width: 150px;
+            color: white;
+            background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+            border-radius: 40px;
+            text-transform: capitalize;
+        }
+    }
+
+}
+
+.statusWrapper {
+
+    .statusActive {
+        padding-top: 5px;
+        text-align: center;
+
+        width: 86px;
+        height: 30px;
+        color: #1E9D2B;
+
+        background: rgba(215, 244, 227, 0.5);
+        border-radius: 20px;
+
+
+    }
+
+
+    .statusInActive {
+        padding-top: 5px;
+        text-align: center;
+
+        width: 86px;
+        height: 30px;
+        color: #B22222;
+
+        background: rgba(244, 215, 215, 0.5);
+        border-radius: 20px;
+    }
+
+    .statusPending {
+        padding-top: 5px;
+        text-align: center;
+
+        width: 86px;
+        height: 30px;
+        color: #FFC54D;
+        background: rgba(244, 234, 215, 0.5);
+        border-radius: 20px;
+    }
+
+    .statusDelivered {
+        padding-top: 5px;
+        text-align: center;
+
+        width: 86px;
+        height: 30px;
+        color: purple;
+
+        background: rgba(215, 244, 227, 0.5);
+        border-radius: 20px;
+
+
+    }
+}

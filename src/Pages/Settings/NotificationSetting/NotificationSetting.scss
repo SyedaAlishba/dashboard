@@ -1,0 +1,126 @@
+
+
+@media (width >= 100px) and (width <= 600px) {
+  .mainWrapperNotificationSetting {
+    .NotiBox {
+      .forTitle {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 44px;
+        color: #16063c;
+      }
+      .forOrder {
+        display: flex;
+        flex-direction: column;
+        .paraList1 {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 33px;
+          color: #16063c;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          
+        }
+        .pushNoti {
+          display: flex;
+          flex-direction: row;
+          width: auto;
+          justify-content: space-between;
+  
+          
+            .paraList2 {
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 27px;
+              color: #777485;
+              margin-top: 16px;
+              margin: 0;
+            }
+  
+          
+          .OrdersBtn1{
+  
+          }
+        }
+        .emailNoti {
+          display: flex;
+          flex-direction: row;
+          width: auto;
+          justify-content: space-between;
+          .paraList2 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            color: #777485;
+            margin-top: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (width >= 600px) and (width <= 2000px) {
+  .mainWrapperNotificationSetting {
+    .NotiBox {
+      .forTitle {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 44px;
+        color: #16063c;
+      }
+      .forOrder {
+        display: flex;
+        flex-direction: column;
+        .paraList1 {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 33px;
+          color: #16063c;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          
+        }
+        .pushNoti {
+          display: flex;
+          flex-direction: row;
+          width: 400px;
+          justify-content: space-between;
+  
+          
+            .paraList2 {
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 27px;
+              color: #777485;
+              margin-top: 16px;
+              margin: 0;
+            }
+  
+          
+          .OrdersBtn1{
+  
+          }
+        }
+        .emailNoti {
+          display: flex;
+          flex-direction: row;
+          width: 400px;
+          justify-content: space-between;
+          .paraList2 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            color: #777485;
+            margin-top: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+

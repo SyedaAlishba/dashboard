@@ -1,0 +1,216 @@
+
+
+@media (width>=600px) and (width <= 2000px) {
+  .mainWrapperCurrency {
+    height: auto;
+    .settingTittle {
+      .settingText {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        color: #16063c;
+      }
+      .manageSetting {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+        color: #777485;
+      }
+    }
+    .mainSectionStartCurrency {
+      display: flex;
+      flex-direction: row;
+      gap: 120px;
+  
+      .rightSectionCurrency {
+        .languageFlex {
+          .rightArrow {
+            // margin-right: 40px;
+            width: 7.64px;
+            height: 14px;
+          }
+          .forLanguage {
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #16063c;
+          }
+          .forLanguageSelected {
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            color: #16063c;
+          }
+        }
+        .languageList {
+          .paraList {
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #777485;
+            // margin-left: 120px;
+            margin-top: 40px;
+          }
+          .paraListSelected {
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            color: #000;
+            // margin-left: 120px;
+            margin-top: 40px;
+          }
+        }
+      }
+      .leftSectionCurrency {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .langaugeLeftList {
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 44px;
+          color: #16063c;
+          text-align: center;
+          margin-top: 32px;
+        }
+  
+        .dollarSign {
+          padding: 8px 28px;
+          gap: 10px;
+          background: #341E9D;
+          border-radius: 20px;
+          color: #ffffff;
+          margin-top: 24px;
+        }
+  
+        .addNewLang {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 27px;
+          text-decoration: underline;
+          color: #341E9D;
+          margin-top: 64px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (width>=100px) and (width <= 600px) {
+  .mainWrapperCurrency {
+    height: auto;
+    .settingTittle {
+      .settingText {
+        margin-top: 0px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        color: #16063c;
+        margin-bottom: 0px;
+      }
+      .manageSetting {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+        color: #777485;
+        margin-top: 0px;
+      }
+    }
+    .mainSectionStartCurrency {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      .rightSectionCurrency {
+        .languageFlex {
+          .rightArrow {
+            // margin-right: 40px;
+            width: 7.64px;
+            height: 14px;
+          }
+          .forLanguage {
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #16063c;
+            margin: 15px 0px;
+
+          }
+          .forLanguageSelected {
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            color: #16063c;
+            margin: 15px 0px;
+          }
+        }
+        .languageList {
+          .paraList {
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 33px;
+            color: #777485;
+            // margin-left: 120px;
+            margin: 15px 0px;
+
+          }
+          .paraListSelected {
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            color: #000;
+            // margin-left: 120px;
+            margin: 15px 0px;
+
+          }
+        }
+      }
+      .leftSectionCurrency {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+  
+        .langaugeLeftList {
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 44px;
+          color: #16063c;
+          text-align: center;
+          margin-top: 15px;
+        }
+  
+        .dollarSign {
+          padding: 8px 28px;
+          gap: 10px;
+          background: #341E9D;
+          border-radius: 20px;
+          color: #ffffff;
+          margin-top: 24px;
+        }
+  
+        .addNewLang {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 27px;
+          text-decoration: underline;
+          color: #341E9D;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+

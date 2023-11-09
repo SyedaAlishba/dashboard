@@ -1,0 +1,106 @@
+.ratingWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 64px;
+    margin-left: 6px;
+
+    .title {
+        display: flex;
+        flex-direction: column;
+
+        .heading {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 44px;
+            color: #16063C;
+            margin: 0;
+
+        }
+
+        .discription {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: #777485;
+            letter-spacing: -0.02em;
+            margin: 0;
+
+        }
+    }
+
+    .ratingActive {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 300px;
+        height: 64px;
+        border: 1px solid #EDEAFB;
+        border-radius: 10px;
+        background: rgba(225, 225, 239, 0.5);
+
+        .currentRating {
+            margin-left: 20px;
+
+
+
+
+            .current {
+                font-weight: 500;
+                font-size: 12px;
+                color: #16063C;
+                padding-top: 27px;
+                margin: 0;
+            }
+
+            .forFlexRating {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-bottom: 22px;
+                margin-top: 5px;
+
+                .ratio {
+                    margin: 0;
+                }
+
+
+            }
+        }
+
+        .current {
+            font-weight: 500;
+            font-size: 12px;
+        }
+
+        hr {
+            height: 40px;
+            color: red;
+
+        }
+
+        .ActiveListings {
+            margin-right: 20px;
+
+            .listing {
+                .forFlexListing {
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: #16063C;
+                    margin: 0;
+
+                }
+
+                .crafts {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #341E9D;
+                    margin: 0;
+                    margin-top: 5px;
+                }
+
+            }
+        }
+    }
+}

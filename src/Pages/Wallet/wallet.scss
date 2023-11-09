@@ -1,0 +1,36 @@
+.myWalletWrapper{
+    .withdrawFundsWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .myWalletHeading{
+            font-weight: 500;
+            font-size: 32px;
+            color: #16063C;
+
+        }
+        .withdrawFundsFlex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 249px;
+height: 59px;
+background: #341E9D;
+border-radius: 40px;
+           .walletIcon{
+
+            height: 24px;
+            width: 24px;
+margin-right: 12px;            
+color: #FFFFFF;
+           } 
+           .withdrawFunds{
+            font-weight: 600;
+            font-size: 16px;
+            text-transform: capitalize;
+            
+color: #FFFFFF;
+           }
+        }
+    }
+}

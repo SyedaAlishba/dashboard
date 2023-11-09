@@ -1,0 +1,108 @@
+
+@media (width >=100px) and (width<=600px) {
+  
+
+  .customerSupportMainWrapper{
+    width: 100%;
+    p{
+      color: #777485;
+    }
+    .textFieldsWrapper {
+      display: flex;
+      flex-direction: column;
+    width: 70%;
+  
+      .textField {
+        margin-top: 25px;
+        height: 50px;
+        width: auto;
+      }
+    
+      .textArea {
+        width: auto;
+      }
+    }
+    .submitBtn {
+      display: flex;
+      flex-direction: row;
+      margin-top: 104px;
+      justify-content: space-between;
+    width: 70%;
+  
+    
+      .submitBtn1 {
+        text-align: center;
+        width: 200px;
+        height: 50px;
+    
+        background: #341E9D;
+        border-radius: 40px;
+      }
+      .cancelBtn {
+        text-align: center;
+        width: 200px;
+        height: 50px;
+    
+        border: 1px solid #341E9D;
+        border-radius: 40px;
+      }
+    }
+  }
+  
+  }
+  
+  
+  
+  
+  @media (width >=600px) and (width<=2000px) {
+    
+  
+    .customerSupportMainWrapper{
+      width: 100%;
+      p{
+        color: #777485;
+      }
+      .textFieldsWrapper {
+        display: flex;
+        flex-direction: column;
+      width: 40%;
+    
+        .textField {
+          margin-top: 25px;
+          height: 50px;
+          width: auto;
+        }
+      
+        .textArea {
+          width: auto;
+        }
+      }
+      .submitBtn {
+        display: flex;
+        flex-direction: row;
+        margin-top: 104px;
+        justify-content: space-between;
+      width: 40%;
+    
+      
+        .submitBtn1 {
+          text-align: center;
+          width: 200px;
+          height: 50px;
+      
+          background: #341E9D;
+          border-radius: 40px;
+        }
+        .cancelBtn {
+          text-align: center;
+          width: 200px;
+          height: 50px;
+      
+          border: 1px solid #341E9D;
+          border-radius: 40px;
+        }
+      }
+    }
+    
+    }
+  

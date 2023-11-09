@@ -1,0 +1,54 @@
+.textfieldWrapper {
+
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    
+    height: auto;
+    border-radius: 8px;
+
+    .textfield {
+        display: flex;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+
+    }
+}
+
+.flexForBtn1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    width: 50%;
+
+    .savechangesBtn1 {
+        font-weight: 700;
+        font-size: 16px;
+        width: 239px;
+        height: 55px;
+        margin-right: 45px;
+        background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+        border-radius: 40px;
+        color: white;
+        text-transform: capitalize;
+        text-align: center;
+
+    }
+
+    .cancelBtn1 {
+        width: 239px;
+        height: 55px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #341E9D;
+        text-align: center;
+        border: 1px solid #341E9D;
+        border-radius: 40px;
+    }
+}

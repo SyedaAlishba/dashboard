@@ -1,0 +1,83 @@
+.pickupAvailibilityWrapper {
+    width: 40%;
+
+    .dayRowFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .txtBold {
+            font-weight: 500;
+            font-size: 20px;
+            color: #16063C;
+            width: 150px;
+
+        }
+
+        .fromTimeFlex {
+            display: flex;
+            justify-content: center;
+            background-color: #F9F9FC;
+            width: 105px;
+            height: 52px;
+            border: 1px solid #E1E1EF;
+            border-radius: 8px;
+
+            .txt {
+                font-weight: 400;
+                font-size: 16px;
+                color: #16063C;
+                margin-right: 10px;
+            }
+
+        }
+
+        .toTimeFlex {
+            display: flex;
+            justify-content: center;
+            background-color: #F9F9FC;
+            width: 105px;
+            height: 52px;
+            border: 1px solid #E1E1EF;
+            border-radius: 8px;
+        }
+
+
+
+    }
+}
+.flexForBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 95px;
+    width: 42%;
+
+    .savechangesBtn {
+        font-weight: 700;
+        font-size: 16px;
+        width: 239px;
+        height: 55px;
+        margin-right: 45px;
+        background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+        border-radius: 40px;
+        color: white;
+        text-transform: capitalize;
+        text-align: center;
+
+    }
+
+    .cancelBtn {
+        width: 239px;
+        height: 55px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #341E9D;
+        text-align: center;
+        border: 1px solid #341E9D;
+        border-radius: 40px;
+    }
+}

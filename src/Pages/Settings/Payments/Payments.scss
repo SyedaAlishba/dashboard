@@ -1,0 +1,263 @@
+.paymentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+          width: 60%;
+  
+    .leftSide {
+        width:70%;
+        .paymentCurrencyFlex {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+           
+
+            .icon {}
+
+            .paraTxtBold {
+                margin-left: 20px;
+                font-weight: 500;
+                font-size: 20px;
+                color: #16063C;
+                cursor: pointer;
+            }
+
+            .paraTxtBlur {
+                margin-left: 20px;
+                font-weight: 600;
+                font-size: 20px;
+                color: Grey ;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .rightSide {
+        width: 80%;
+
+        .paymentCurrencyWrapper{
+            display: flex;
+            flex-direction: column;
+           align-items: flex-start;
+         
+        
+           
+        
+        .paymentCurrencyHeading{
+            font-weight: 400;
+        font-size: 20px;
+        color:  #16063C;
+        
+        }
+        .grayContainer{
+        width: 75%;
+        background: #F9F9FC;
+        border: 1px solid #F6F7F9;
+        border-radius: 4px;
+        padding: 10px;
+            .checketFlex{
+            display: flex;
+       justify-content: space-between;
+
+
+               
+                .usDollarTxt{
+                    font-weight: 400;
+                    font-size: 18px;
+        color:  #16063C;
+        margin-top: 0px;
+        
+                }
+                .checket{
+        
+                }
+            }
+        .hrLine{
+            width: 100%;
+            border: 1px solid #E1E1EF;
+            margin-top: 0;
+        }
+    }
+
+        
+        }
+        .flexForBtn{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 70px;
+            width: 70%;
+            .savechangesBtn{
+                font-weight: 700;
+        font-size: 16px;
+                width: 339px;
+                height: 55px;
+                margin-right: 45px;
+                background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+        border-radius: 40px;
+        color: white;
+        text-transform: capitalize;
+        text-align: center;
+        
+            }
+            .cancelBtn{
+                width: 339px;
+                height: 55px;
+                font-weight: 700;
+        font-size: 16px;
+        color: #341E9D;
+        text-align: center;
+        border: 1px solid #341E9D;
+        border-radius: 40px;
+            }
+        }
+        .preferredPaymentWrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .preferedTxt{
+                font-weight: 400;
+font-size: 24px;
+color: #16063C;
+            }
+            .grayBox{
+                margin-bottom: 32px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 514px;
+                height: 56px;
+                border: 1px solid #E1E1EF;
+border-radius: 8px;
+background-color:#F9F9FC ;
+padding: 10px;
+               .paypalFlex{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .iconPaypal{
+
+                }
+                .paypalTxt{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #16063C;
+                    margin-left: 5px;
+                }
+               } 
+               .view{
+                width: 69px;
+                height: 31px;
+                background: rgba(52, 30, 157, 0.15);
+border-radius: 20px;
+
+
+
+
+                .viewTxt{
+                    font-weight: 500;
+                    font-size: 14px;
+                    color:#341E9D ;
+                    text-align: center;
+padding-top: 4px;
+margin: 0px;
+                  
+                }
+               }
+            }
+        }
+      .thresHoldLimitWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .setThreshold{
+            font-weight: 400;
+            font-size: 24px;
+            color: #16063C;
+            margin-top: 54px;
+            margin-bottom: 0px;
+
+        }
+        .withdrawThreshold{
+            font-weight: 500;
+            font-size: 18px;
+            color: #777485;
+            
+        }
+        .grayContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            height: 72px;
+            border: 1px solid #E1E1EF;
+border-radius: 8px;
+background-color:#F9F9FC ;
+margin-top: 15px;
+            .dolarSign{
+                font-weight: 600;
+                font-size: 28px;
+                color: #341E9D;
+                
+            }
+        }
+      }
+
+      .setThresholdFlex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 70px;
+        .setThresholdBtn{
+            font-weight: 700;
+    font-size: 16px;
+            width: 239px;
+            height: 55px;
+            margin-right: 45px;
+            background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+    border-radius: 40px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    
+        }
+        .cancelBtn{
+            width: 239px;
+            height: 55px;
+            font-weight: 700;
+    font-size: 16px;
+    color: #341E9D;
+    text-align: center;
+    border: 1px solid #341E9D;
+    border-radius: 40px;
+        }
+    }
+
+        
+    }
+}
+.addAccountTxt{
+    font-weight: 600;
+font-size: 24px;
+color: #16063C;
+
+}
+.addAccountflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+margin-top: 30px;
+    .addAccountBtn{
+        width: 200px;
+        height: 49px;
+background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+background-color: #341E9D;
+border-radius: 40px;
+        font-weight: 700;
+        font-size: 16px;
+text-transform: capitalize;
+color: #ffff;
+        
+    }
+}

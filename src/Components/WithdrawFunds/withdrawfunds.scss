@@ -1,0 +1,75 @@
+.withDrawFundWrapper {
+
+    display: flex;
+    flex-direction: column;
+
+    .fundTxtHeading {
+        font-weight: 600;
+        font-size: 24px;
+        color: #16063C;
+    }
+
+    .widgetWithdrawFund {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 110px;
+        background: rgba(130, 128, 255, 0.5);
+        color: black;
+        border-radius: 10px;
+        padding: 8px;
+
+        .withdrawTittle {
+            color: #341E9D;
+            margin-top: 0px;
+        }
+
+        .withdrawValue {
+            font-weight: 700;
+            font-size: 16px;
+            color: #16063C;
+            margin-top: 0;
+
+        }
+    }
+
+    .withdrawFundTxtFieldFlex {
+        .txt {
+            margin-bottom: 0px;
+            margin-top: 40px;
+            margin-left: 7px;
+
+
+        }
+
+        .withdrawFundTxtField {
+
+            width: 100%;
+            height: 56px;
+            font-weight: 400;
+            font-size: 12px;
+            color: #C3C9DA;
+            background: #F9F9FC;
+            border: 1px solid #E1E1EF;
+            border-radius: 8px;
+        }
+
+    }
+    .continueBtnFlex{
+//         display: flex;
+//         justify-content: center;
+//         width: 249px;
+// height: 59px;
+// background: linear-gradient(90deg, #341E9D 0%, #8672E4 100%);
+// border-radius: 40px;
+
+        .continueBtn{
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+          
+        }
+    }
+}
